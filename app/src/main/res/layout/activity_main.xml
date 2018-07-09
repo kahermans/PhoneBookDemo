@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="156dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="76dp"
+        android:onClick="addContact"
+        android:text="Add Contact"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSearch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSearch"
+        android:layout_width="156dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="searchContacts"
+        android:text="Search Contacts"
+        app:layout_constraintBottom_toTopOf="@+id/buttonView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAdd" />
+
+    <Button
+        android:id="@+id/buttonView"
+        android:layout_width="156dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="viewContacts"
+        android:text="View All"
+        app:layout_constraintBottom_toTopOf="@+id/buttonDelete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSearch" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="156dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="removeContact"
+        android:text="Remove Contact"
+        app:layout_constraintBottom_toTopOf="@+id/buttonUpdate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonView" />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="156dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="127dp"
+        android:onClick="updateContact"
+        android:text="Update Contact"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDelete" />
+
+</android.support.constraint.ConstraintLayout>

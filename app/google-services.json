@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "663826368112",
+    "firebase_url": "https://phonebookdemo-4e655.firebaseio.com",
+    "project_id": "phonebookdemo-4e655",
+    "storage_bucket": "phonebookdemo-4e655.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663826368112:android:9a2ac6e199569c09",
+        "android_client_info": {
+          "package_name": "com.example.kahermans.phonebookdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663826368112-pd0b08p7v1064t08mjbidvra7qis6c3v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kahermans.phonebookdemo",
+            "certificate_hash": "154dd96df30a18ce627577db85e305c8399d8de5"
+          }
+        },
+        {
+          "client_id": "663826368112-tcieacae5jo0gsk5v40tsu2rfmssnvr1.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "663826368112-tcieacae5jo0gsk5v40tsu2rfmssnvr1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArYFtqcnSfre9YFGuXOhV3pa_GMtDdkUg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663826368112-tcieacae5jo0gsk5v40tsu2rfmssnvr1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Single List Item Design -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textView_Name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dip"
+    android:textSize="16dip"
+    android:textStyle="bold" >
+</TextView>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textView_Number"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/textView_Name"
+    android:padding="10dip"
+    android:textSize="16dip"
+    android:textStyle="bold" >
+</TextView>
+</RelativeLayout>
